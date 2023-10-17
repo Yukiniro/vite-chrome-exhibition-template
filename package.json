@@ -1,0 +1,62 @@
+{
+  "name": "vite-react-template",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prettier:jsx": "npx prettier --write src/**/*.tsx",
+    "eslint": "npx eslint src/**/*.tsx",
+    "eslint:fix": "npx eslint --fix src/**/*.tsx",
+    "stylelint": "npx stylelint src/**/*.{less,css}",
+    "stylelint:fix": "npx stylelint --fix src/**/*.{less,css}",
+    "lint": "npm run prettier:jsx && npm run eslint:fix && npm run stylelint:fix"
+  },
+  "author": "Yukiniro",
+  "keywords": [
+    "react",
+    "vite",
+    "template",
+    "tailwindcss"
+  ],
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^3.9.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reset-css": "^5.0.1",
+    "tailwindcss": "^3.3.3",
+    "vite-plugin-svgr": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "@vitejs/plugin-react": "^4.1.0",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-promise": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.4",
+    "less": "^4.1.2",
+    "lint-staged": "^12.1.7",
+    "postcss": "^8.4.31",
+    "postcss-less": "^6.0.0",
+    "prettier": "^3.0.3",
+    "stylelint": "^15.10.3",
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-tailwindcss": "^0.0.7",
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^4.0.2",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11"
+  }
+}
